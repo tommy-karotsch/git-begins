@@ -1,0 +1,5 @@
+git clone
+git commit 
+git commit -m "shell project report"
+git add .
+git push origin main
