@@ -1,10 +1,21 @@
-git clone
-git commit 
-git commit -m "shell project report"
-git add .
-git push origin main
-git pull origin main
-#
+# 1. Initialisez git dans votre dossier (si pas déjà fait)
+git init
+
+# 2. Ajoutez votre fichier .py
+git add votre_fichier.py
+
+# 3. Faites un commit
+git commit -m "Ajout de votre_fichier.py"
+
+# 4. Liez votre dépôt local au dépôt GitHub
+git remote add origin https://github.com/votre-username/nom-du-repo.git
+
+# 5. Poussez vers GitHub
+git push -u origin main
+
+---------------------------------------------------------------------------------
+
+
 git branch nom-de-la-branche
 git branch test
 git switch nom-de-la-branche
