@@ -15,8 +15,9 @@ git push -u origin main
 
 ---------------------------------------------------------------------------------
 
+# nom-de-la-branche = exemple
 
 git branch nom-de-la-branche
-git branch test
+git branch 
 git switch nom-de-la-branche
 git branch 
